@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Landers · Reparación y Pintura Automotriz</title>
+  <meta name="description" content="Reparación y pintura automotriz en Melipilla. Cotiza online con fotos.">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <!-- Open Graph -->
+  <meta property="og:title" content="The Landers · Taller Automotriz">
+  <meta property="og:description" content="Pintura, desabollado, detailing. Cotiza con fotos.">
+  <meta property="og:image" content="/logo.png">
+  <meta property="og:type" content="website">
+  <style>
+    :root { --bg:#0b0b0b; --fg:#e5e7eb; --accent:#e11d48; --muted:#9ca3af; }
+    * { box-sizing:border-box }
+    body { margin:0; background:var(--bg); color:var(--fg); font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial }
+    a { color:#7dd3fc }
+    header { padding:28px 16px; border-bottom:1px solid #1f2937 }
+    .wrap { max-width:1040px; margin:0 auto; padding:0 16px }
+    .hero { display:grid; grid-template-columns:130px 1fr; gap:18px; align-items:center; padding:24px 0 }
+    .brand-name { font-size:36px; font-weight:800 }
+    .tagline { color:var(--muted) }
+    .logo { width:120px; height:120px; object-fit:contain; filter:drop-shadow(0 0 12px rgba(255,255,255,.08)) }
+    .buttons a { display:inline-block; padding:12px 18px; border-radius:12px; text-decoration:none; font-weight:700; margin-right:8px }
+    .btn-primary { background:var(--accent); color:white }
+    .btn-outline { border:1px solid var(--accent); color:var(--fg) }
+    .card { background:#111; border:1px solid #222; border-radius:16px; padding:18px; margin:14px 0 }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:14px }
+    .gallery { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:12px }
+    .gallery img { width:100%; height:220px; object-fit:cover; border-radius:12px; border:1px solid #222 }
+    iframe.form { width:100%; min-height:1200px; border:0; background:#0f0f0f }
+    footer { border-top:1px solid #222; color:var(--muted); padding:24px 16px; text-align:center; margin-top:30px }
+    /* WhatsApp floating button */
+    .wafloat { position:fixed; right:18px; bottom:18px; background:#25D366; color:#111; border-radius:999px; padding:12px 16px; font-weight:800; text-decoration:none; box-shadow:0 8px 22px rgba(0,0,0,.35) }
+    .wafloat:hover { filter:brightness(1.05) }
+    .mapwrap { overflow:hidden; border-radius:14px; border:1px solid #222 }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap hero">
+      <img src="/logo.png" alt="The Landers logo" class="logo">
+      <div>
+        <div class="brand-name">The Landers</div>
+        <div class="tagline">Reparación y pintura automotriz en Melipilla</div>
+        <div class="buttons" style="margin-top:12px">
+          <a class="btn-primary" href="https://forms.gle/7Xef2mrvFtNz4LUAA" target="_blank" rel="noopener">Abrir formulario</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="card">
+      <h2>Contacto</h2>
+      <p><strong>Dirección:</strong> Pardo #55, Melipilla</p>
+      <p><strong>Teléfono:</strong> +56 9 4805 8449</p>
+      <p><strong>Email:</strong> <a href="mailto:landerosdiazgonzalohernan@gmail.com">landerosdiazgonzalohernan@gmail.com</a></p>
+      <div class="mapwrap" style="margin-top:12px">
+        <iframe src="https://www.google.com/maps?q=Pardo+55,+Melipilla&output=embed" width="100%" height="350" style="border:0" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Servicios</h2>
+      <div class="grid">
+        <div class="card"><h3>Pintura completa</h3><p>Acabado profesional con materiales de alto desempeño.</p></div>
+        <div class="card"><h3>Desabollado</h3><p>Corrección de abolladuras respetando líneas del vehículo.</p></div>
+        <div class="card"><h3>Parachoques</h3><p>Reparación en plástico o fibra, textura y color uniformes.</p></div>
+        <div class="card"><h3>Pulido / Detailing</h3><p>Corrección de pintura, pulido de faros y protección.</p></div>
+      </div>
+    </section>
+
+  </main>
+
+  <a class="wafloat" href="https://wa.me/56948058449?text=Hola%20The%20Landers%2C%20quiero%20cotizar" target="_blank" rel="noopener">WhatsApp</a>
+
+  <footer>
+    © 2025 The Landers · Melipilla
+  </footer>
+</body>
+</html>
